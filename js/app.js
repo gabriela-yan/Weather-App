@@ -42,7 +42,7 @@ function showError(message){
 }
 
 function consultAPI(city, country){
-    const appId = '006c18efcb92b3078283e21ddb2bf039';
+    const appId = '..your..API..here..';
 
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${appId}`;
 
